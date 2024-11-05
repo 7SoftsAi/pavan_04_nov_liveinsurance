@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Types</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.prathap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.prathap-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prathap-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.prathap-card h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.prathap-underline {
+    width: 40px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px 0;
+}
+
+.prathap-card p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex: 1;
+}
+
+.prathap-icon {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.prathap-icon i {
+    font-size: 40px;
+    color: #007bff;
+}
+
+.prathap-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.prathap-arrow i {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.prathap-arrow:hover {
+    background-color: #FFBF00;
+}
+
+.prathap-arrow:hover i {
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .prathap-container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
+    .prathap-card {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 446px) {
+    .prathap-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prathap-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .prathap-card {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .prathap-card p {
+        font-size: 14px;
+    }
+
+    .prathap-icon i, .prathap-arrow i {
+        font-size: 30px;
+    }
+
+    .prathap-arrow {
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="prathap-container">
+        <div class="prathap-card">
+            <h3>Home Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Home insurance provides financial security and peace of mind by covering potential damages and losses. Secure your home and valuables with LIC Home Insurance, offering comprehensive coverage against fire, theft, and natural disasters. Enjoy peace of mind with affordable premiums and reliable protection for your cherished abode.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="prathap-card">
+            <h3>Credit Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Credit insurance is an essential financial tool that helps businesses and individuals safeguard against the risks of non-payment of debts. Protect your financial stability with LIC Credit Insurance, ensuring coverage for loans and credit repayments in case of unforeseen events. Safeguard your assets and maintain peace of mind with our reliable and comprehensive credit protection plans.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="prathap-card">
+            <h3>Car Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Car insurance is crucial for protecting yourself, your vehicle, and others on the road. It provides financial protection against accidents, theft, and other unforeseen events. Drive with confidence knowing your vehicle is protected by LIC Car Insurance. Our comprehensive coverage includes protection against accidents, theft, and natural disasters, ensuring peace of mind on every journey.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-car"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="prathap-card">
+            <h3>Transport Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Travel insurance is essential for protecting yourself against unexpected events while traveling, whether for business or pleasure. Drive with confidence knowing your vehicle is protected by LIC Car Insurance. Our comprehensive coverage includes protection against accidents, theft, and natural disasters, ensuring peace of mind on every journey.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-plane"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="prathap-card">
+            <h3>Life Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Provide financial security for your loved ones. Choose from term life, whole life, or universal life insurance to meet your family’s needs. Secure your family’s future with LIC Life Insurance, offering financial protection and peace of mind. Our plans provide coverage against unforeseen events, ensuring your loved ones are supported even in your absence.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="prathap-card">
+            <h3>Health Insurance</h3>
+            <div class="prathap-underline"></div>
+            <p>Secure your health and well-being. Our health insurance plans cover medical expenses, hospital stays, and preventive care. Protect your health and well-being with LIC Health Insurance, offering extensive coverage for medical expenses and treatments. Benefit from a range of plans designed to meet your needs, ensuring access to quality healthcare without financial strain.</p>
+            <div class="prathap-icon">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <div class="prathap-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
